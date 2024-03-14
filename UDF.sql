@@ -13,3 +13,6 @@ begin
 	end loop;
 	return total;
 end;
+$$ language plpgsql;
+
+					   
