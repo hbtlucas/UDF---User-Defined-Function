@@ -16,3 +16,6 @@ end;
 $$ language plpgsql;
 
 					   
+/////tabela: valores (id numeric(10),valor1 numeric(4,2), valor2 numeric(4,2), valor3 numeric(4,2), PRIMARY KEY(id));
+//////fazer: implementar um procedimento para preencher as colunas da tabela, sendo: id sequencial, valor1, valor2 e valor3 valores randômicos.
+//////A quantidade de linhas terá que ser informada via parâmetro.
